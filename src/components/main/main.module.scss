@@ -1,0 +1,15 @@
+.background_image {
+    background-image: url('../../images/main-background.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Встановлює ширину на всю ширину вікна */
+    height: 630px; /* Висота фону, змінюється залежно від ваших потреб */
+    background-size: cover; /* Зображення покриває весь блок */
+    background-position: center; /* Центрування зображення */
+    z-index: -1; /* Задає фоновий блок позаду основного контенту */
+}
+.container {
+}
