@@ -1,9 +1,10 @@
 import './styles/main.scss'
+import { Header } from './components/header/header';
 
 function App() {
   return(
     <div className='container'>
-      123
+      <Header></Header>
     </div>
   )
 }

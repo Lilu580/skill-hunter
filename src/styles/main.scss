@@ -1,5 +1,11 @@
-@import './reset.scss';
+@import '../styles/utils/reset.scss';
+@import '../styles/utils/variables.scss';
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: $main-text-color;
+}
 
 .container {
-  background-color: black;
+  background-color: $main-color;
 }

@@ -1,0 +1,10 @@
+@import '../../styles/utils/variables.scss';
+
+.navLink {
+    font-size: 11px;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+        margin-right: 24px;
+    }
+}
