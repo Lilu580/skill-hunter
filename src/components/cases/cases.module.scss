@@ -1,0 +1,111 @@
+@import '../../styles/utils/variables.scss';
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+    top: 155px;
+    left: 10px;
+    transform: translate(50%, 50%);
+}
+
+.vector_2 {
+    position: absolute;
+    transform: translateY(50%);
+    top: 180px
+}
+
+.phone {
+    &_container {
+        width: 510px;
+        height: 528px; 
+        position: relative;   
+    }
+
+    &_1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    &_2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &_3 {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &_4 {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &_5 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.case {
+    &_first {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_second {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+.info {
+    &_container {
+        transform: translate(-50%, 50%);
+        width: 172px;
+        height: 123px;
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+        flex-direction: column;
+
+        &_2 {
+            transform: translate(-50%, 50%);
+            width: 172px;
+            height: 123px;
+            display: flex;
+            align-items: self-start;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+    }
+    &_addInfo {
+        font-size: 11px;
+        font-weight: 700;
+        color: $second-main-color;
+    }
+
+    &_header {
+        font-size: 42px;
+        font-weight: 800px;
+    }
+
+    &_info {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

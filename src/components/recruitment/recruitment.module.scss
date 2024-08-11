@@ -1,8 +1,9 @@
 @import '../../styles/utils/variables.scss';
 
 .container {
-    margin-top: 100px;
     position: relative;
+    max-width: 880px;
+    margin: 100px auto 0;
 }
 
 .agency {
