@@ -1,7 +1,6 @@
 @import '../../styles/utils/variables.scss';
 
 .container {
-    background-color: $second-main-color;
     text-transform: uppercase;
     text-align: center;
     display: flex;
@@ -16,8 +15,24 @@
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s linear;
+    width: 100%;
+}
+
+.active {
+    background-color: $second-main-color;
 
     &:hover {
-        background-color: inherit;
+        background-color: #FFFFFF;
+        color: $second-main-color;
+    }
+}
+
+.innactive {
+    background-color: inherit;
+    border: 1px solid #CBCBCB;
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: $second-main-color;
     }
 }

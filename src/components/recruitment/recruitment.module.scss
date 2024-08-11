@@ -1,0 +1,110 @@
+@import '../../styles/utils/variables.scss';
+
+.container {
+    margin-top: 100px;
+    position: relative;
+}
+
+.agency {
+    position: absolute;
+    top: -60px;
+    left: 230px;
+    z-index: -1;
+}
+
+.header {
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.cards_container {
+    margin-top: 56px;
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 211px;
+    height: 133px;
+    border: 1px solid #D9D5D5;
+    border-radius: 12px;
+}
+
+.list {
+    width: 495px;
+}
+
+.strategy {
+    margin-top: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_list {
+        margin-top: 90px;
+        // list-style-image: url('../../images/-.png');
+
+        &_item {
+            font-size: 14px;
+            font-weight: 500;
+            &:not(:first-child) {
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+.subscriptions {
+    margin-top: 200px;
+
+    &_header {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &_content {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15.6px;
+    }
+
+    &_container {
+        margin-top: 100px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+     &_card {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: space-between;
+        width: 190px;
+        height: 278px;
+        border: 1px solid #CBCBCB;
+        border-radius: 8px;
+        padding: 22px;
+
+        ::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            top: 50%;
+            left: 100%;
+            width: 20px;
+            background-color: #CBCBCB;
+        }
+
+        &_active {
+            background-color: $second-main-color;
+            width: 235px;
+            height: 316px;
+        }
+     }
+}
