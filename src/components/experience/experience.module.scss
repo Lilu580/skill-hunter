@@ -4,6 +4,7 @@
     max-width: 880px;
     margin: 0 auto;
     margin-top: 100px;
+    position: relative;
 }
 
 .elipse {
@@ -16,12 +17,26 @@
         align-items: center;
         justify-content: center;
 
+        &_1 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translate(-50%);
+        }
+
         &_2 {
+            position: absolute;
+            transform: translate(50%, 50%);
+            top: 50%;
             width: 219px;
             height: 219px;
         }
 
         &_3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-25%, 170%);
             width: 198px;
             height: 198px;
         }
@@ -61,6 +76,40 @@
 }
 
 .header {
+    text-transform: uppercase;
     font-size: 42px;
     font-weight: 700;
+
+    &_1 {
+        position: absolute;
+        right: 0;
+        transform: translate(-30%, 100%);
+    }
+
+    &_2 {
+        position: relative;
+        top: 30px;
+    }
+
+    &_3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(10%, 350%);
+    }
+}
+
+.arrow {
+    &_1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-100%, 100%);
+    }
+
+    &_2 {
+        position: absolute;
+        right: 50%;
+        top: 0;
+        transform: rotate(180deg) translate(-150%, -500%) ;
+    }
 }
