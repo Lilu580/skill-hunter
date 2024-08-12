@@ -6,12 +6,12 @@ import logo from '../../images/logo.png'
 import { Callback } from '../callback/callback';
 
 
-export function Header() {
+export function Header({nav = true}) {
   return(
-    <header className={styles.container}>
+    <header className={styles.container} style={{marginTop: nav ? 19 : 100}}>
       <div className={styles.main_info}>
         <Logo iamage={logo} text={'SkillHunter'}/>
-        <Nav linksInfo={links}/>
+        {nav && <Nav linksInfo={links}/>}
       </div>
       <Callback/>
     </header>

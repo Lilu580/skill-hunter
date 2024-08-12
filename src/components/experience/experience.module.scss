@@ -113,3 +113,14 @@
         transform: rotate(180deg) translate(-150%, -500%) ;
     }
 }
+
+.circle {
+
+    &_container {
+        position: relative;
+    }
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(60%);
+}

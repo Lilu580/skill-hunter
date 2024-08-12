@@ -8,6 +8,9 @@ import blueElipse from '../../images/Ellipse 11.png'
 export function Main () {
   return (
     <>
+        <div className={styles.background_image}>
+
+        </div>
         <div className={styles.container}>
             <Header />
             <Banner />

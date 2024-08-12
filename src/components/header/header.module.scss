@@ -1,6 +1,8 @@
 @import '../../styles/utils/variables.scss';
 
 .container {
+    max-width: 880px;
+    margin: 0 auto;
     margin-top: 19px;
     display: flex;
     align-items: center;
