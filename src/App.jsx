@@ -6,6 +6,7 @@ import { Paralax } from './components/parralax/parralax';
 import { Info } from './components/info/info';
 import { Cases } from './components/cases/cases';
 import { Selection } from './components/selections/selection';
+import { Experience } from './components/experience/experience';
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
       <Info />
       <Cases />
       <Selection />
+      <Experience />
     </div>
   )
 }

@@ -1,0 +1,66 @@
+@import '../../styles/utils/variables.scss';
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.elipse {
+    &_outer {
+        width: 224px;
+        height: 224px;
+        border-radius: 50%;
+        border: 1px solid rgba(203, 203, 203, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &_2 {
+            width: 219px;
+            height: 219px;
+        }
+
+        &_3 {
+            width: 198px;
+            height: 198px;
+        }
+    }
+
+    &_inner {
+        box-sizing: border-box;
+        padding: 50px;
+        width: 193px;
+        height: 193px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        font-weight: 600;
+        font-size: 11px;
+        color: $second-main-color;
+
+        &_2 {
+            width: 189px;
+            height: 189px;
+        }
+
+        &_3 {
+            width: 173px;
+            height: 173px;
+        }
+    }
+}
+
+.title {
+    font-size: 11px;
+    font-weight: 700;
+    color: $second-main-color;
+}
+
+.header {
+    font-size: 42px;
+    font-weight: 700;
+}
