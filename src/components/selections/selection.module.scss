@@ -1,0 +1,150 @@
+@import '../../styles/utils/variables.scss';
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    &_container {
+        max-width: 354px;
+
+        &_2 {
+            max-width: 422px;
+        }
+    }
+
+    &_additional {
+        font-weight: 700;
+        font-size: 11px;
+        color: $second-main-color;
+    }
+
+    &_header {
+        font-weight: 800;
+        font-size: 42px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    &_content{
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+.list {
+    &_container {
+        margin-top: 80px;
+    }
+
+    &_header {
+        color: $second-main-color;
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    &_item {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.statistic {
+    &_container {
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    &_card {
+        position: relative;
+        padding: 22px;
+        backdrop-filter: blur(10px);
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.15);
+            filter: blur(100%);
+        }
+    }
+
+    &_images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_add {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-basis: 40px;
+        }
+    }
+
+    &_number {
+        margin-top: 20px;
+    }
+
+    &_content {
+        margin-top: 20px;
+    }
+}
+
+.triple {
+    &_container {
+        position: relative;
+        top: -150px;
+        z-index: -1;
+    }
+}
+
+.circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -4;
+
+    &_container {
+        display: flex;
+        position: absolute;
+        align-items: end;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -4;
+    }
+
+    // &_white {
+    //     position: absolute;
+    //     transform: translate(-50%, -50%);
+    // }
+
+    // &_yellow {
+    //     position: absolute;
+    // }
+}
+
+.image_container {
+    margin-top: 20px;
+}

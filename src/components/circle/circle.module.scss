@@ -1,0 +1,17 @@
+.container {
+    width: 361px;
+    height: 361px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px rgba(255, 138, 0, 0.15);
+    background: radial-gradient(circle, rgba(255, 138, 0, 0.8) 0%, rgba(255, 138, 0, 0.5) 70%);
+    filter: blur(50px);
+    z-index: -4;
+
+    &_white {
+        width: 297px;
+        height: 297px;
+        filter: blur(70px);
+        box-shadow: 0 0 100px 50px rgba(143, 193, 255, 0.1);
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(143, 193, 255, 0.8) 70%);
+    }
+}

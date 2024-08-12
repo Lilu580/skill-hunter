@@ -1,7 +1,16 @@
+import { Circle } from '../circle/circle'
 import styles from './info.module.scss'
 export function Info() {
     return (
-        <div className={styles.container}>
+        <div>
+            <div className={styles.circle_white}>
+                <Circle white={true}/>
+            </div>
+            <div className={styles.circle_yellow}>
+                <Circle/>
+            </div>
+            
+            <div className={styles.container}>
             <ul>
                 <li className={styles.content}><p>Expert evaluation of the effectiveness of training systems.</p></li>
                 <li className={styles.content}><p>Systems for managing the growth of employee qualifications.</p></li>
@@ -10,6 +19,7 @@ export function Info() {
                 <li className={styles.content}><p>Recruitment and talent identification systems.</p></li>
                 <li className={styles.content}><p>Systems for planning the development and retraining of the company's human resources.</p></li>
             </ul>
+        </div>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { Recruitment } from './components/recruitment/recruitment'
 import { Paralax } from './components/parralax/parralax';
 import { Info } from './components/info/info';
 import { Cases } from './components/cases/cases';
+import { Selection } from './components/selections/selection';
 
 function App() {
   return(
@@ -14,6 +15,7 @@ function App() {
       <Paralax />
       <Info />
       <Cases />
+      <Selection />
     </div>
   )
 }

@@ -4,6 +4,7 @@ import phone2 from '../../images/HR_PNG9 1.png'
 import phone3 from '../../images/HR_PNG7.png'
 import cases from '../../images/Vector.png'
 import cases_2 from '../../images/Vector_2.png'
+import { Circle } from '../circle/circle'
 
 export function Cases() {
     return (
@@ -11,6 +12,7 @@ export function Cases() {
             <img src={cases} alt="cases" className={styles.vector}/>
             <div className={styles.case_first}>
                 <div className={styles.phone_container}>
+                    <div className={styles.circle}><Circle white={true}/></div>
                     <img src={phone1} alt="phone" className={styles.phone_1}/>
                     <img src={phone2} alt="phone" className={styles.phone_2}/>
                     <img src={phone3} alt="phone" className={styles.phone_3}/>
@@ -29,6 +31,7 @@ export function Cases() {
                     <p className={styles.info_info}>Business positioning system in social networks.</p>
                 </div>
                 <div className={styles.phone_container}>
+                    <div className={styles.circle}><Circle white={true}/></div>
                     <img src={phone1} alt="phone" className={styles.phone_4}/>
                     <img src={phone2} alt="phone" className={styles.phone_2}/>
                     <img src={phone3} alt="phone" className={styles.phone_5}/>
