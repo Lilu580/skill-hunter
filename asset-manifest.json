@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/your-repository-name/static/css/main.576e2c9b.css",
+    "main.js": "/your-repository-name/static/js/main.0823bfe3.js",
+    "static/media/Paralax.png": "/your-repository-name/static/media/Paralax.3a80e5154f4730af799e.png",
+    "static/media/Frame 151.png": "/your-repository-name/static/media/Frame 151.f606ddcd27b741b1849d.png",
+    "static/media/Group 24 (1).png": "/your-repository-name/static/media/Group 24 (1).e0fb6784431ee28ea859.png",
+    "static/media/HR.png": "/your-repository-name/static/media/HR.9c51c1ace12073c7226f.png",
+    "static/media/HR_PNG7.png": "/your-repository-name/static/media/HR_PNG7.2e1757827b66b6c26673.png",
+    "static/media/HR_PNG9 1.png": "/your-repository-name/static/media/HR_PNG9 1.e92fa1b838624f36cb80.png",
+    "static/media/main-background.png": "/your-repository-name/static/media/main-background.984bba2dfe2b737324d0.png",
+    "static/media/HR AGENCy.png": "/your-repository-name/static/media/HR AGENCy.d8b3106dcf81af777fc8.png",
+    "static/media/Vector.png": "/your-repository-name/static/media/Vector.45053758640b218f1e79.png",
+    "static/media/Vector_2.png": "/your-repository-name/static/media/Vector_2.42d3132c50c5ddf13a14.png",
+    "static/media/people.png": "/your-repository-name/static/media/people.ce6da5b5d33a4e9e90e3.png",
+    "static/media/card_1.png": "/your-repository-name/static/media/card_1.3580bb1abe0e12c5958b.png",
+    "static/media/Ellipse 11.png": "/your-repository-name/static/media/Ellipse 11.d122265790373e917597.png",
+    "static/media/2630.svg": "/your-repository-name/static/media/2630.e05f58e69a06063c587ab9dfb15e284f.svg",
+    "static/media/add_circle.svg": "/your-repository-name/static/media/add_circle.38de821d64261db9a8cc8a7fb883b160.svg",
+    "static/media/Vector2.svg": "/your-repository-name/static/media/Vector2.fb92c7f57de3bf2522f2f10dffc08d05.svg",
+    "index.html": "/your-repository-name/index.html",
+    "static/media/Arrow 1 (Stroke).svg": "/your-repository-name/static/media/Arrow 1 (Stroke).0961c4f38b2c458e3470d97c6dc0f03d.svg",
+    "static/media/bar_chart.svg": "/your-repository-name/static/media/bar_chart.013b74455fd34ac8978941a1916cbd16.svg",
+    "main.576e2c9b.css.map": "/your-repository-name/static/css/main.576e2c9b.css.map",
+    "main.0823bfe3.js.map": "/your-repository-name/static/js/main.0823bfe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.576e2c9b.css",
+    "static/js/main.0823bfe3.js"
+  ]
+}
